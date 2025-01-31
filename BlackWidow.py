@@ -1,6 +1,3 @@
-# Programmer: Kyle Delos Angeles
-# Branch: Welcome
-# Date: 1.30.2025
-# Program: BlackWidow
+print("Welcome Branch - Developer:Kyle Delos Angeles")
 
-print("Welcome to InfoTechCenter V1.0")
+print("\n\tWelcome to InfoTechCenter V1.0")
