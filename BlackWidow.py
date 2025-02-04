@@ -4,7 +4,7 @@ import time
 
 print("Welcome Branch - Developer:Kyle Delos Angeles")
 
-print("\n\tWelcome to InfoTechCenter V1.0")
+print("Welcome to InfoTechCenter V1.0\n")
 
 x = 0
 ellipsis = 0
@@ -18,4 +18,4 @@ while x != 20:
     if ellipsis == 4:
         ellipsis = 0
     if x == 20:
-        print("/nOperating System Booted Up - Retina Scanned - Access Granted")
+        print("\n\nperating System Booted Up - Retina Scanned - Access Granted\n")
