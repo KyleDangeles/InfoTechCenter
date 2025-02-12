@@ -1,6 +1,9 @@
 # Libraries HERE
 import sys  # Import the sys module to interact with system-specific parameters and functions
 import time  # Import the time module to use time-related functions, such as sleep()
+import random  # Used for generating random weather conditions
+
+
 
 # Define color constants using ANSI escape sequences
 RESET = "\033[0m"  # Reset to default text color
@@ -10,7 +13,7 @@ GREEN = "\033[92m"  # Green color for the final success message
 MAGENTA = "\033[95m"  # Magenta color for the booting message
 
 # Print a welcome message to the console in cyan
-print(f"{CYAN}Welcome Branch - Developer: Kyle Delos Angeles{RESET}")
+print(f"{CYAN}\nWelcome Branch - Developer: Kyle Delos Angeles\n{RESET}")
 
 # Print a version message to the console in yellow
 print(f"{YELLOW}Welcome to InfoTechCenter V1.0\n{RESET}")
@@ -35,11 +38,8 @@ while x != 20:
         print(f"\n\n{GREEN}Operating System Booted Up - Retina Scanned - Access Granted{RESET}\n")
 
 # Print a decorative header
-print("\n*************************************\n")
-print("Weather Branch - Developer: Mr. Lange")
+print("*************************************\n")
 
-# Import necessary libraries
-import random  # Used for generating random weather conditions
 
 # Weather Function to determine the weather
 def weather():
