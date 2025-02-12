@@ -1,6 +1,6 @@
 # Print a decorative header
 print("\n*************************************\n")
-print("Weather Branch - Developer: Mr. Lange")
+print("Weather Branch - Developer: Kyle Delos Angeles")
 
 # Import necessary libraries
 import random  # Used for generating random weather conditions
